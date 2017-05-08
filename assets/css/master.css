@@ -5,10 +5,27 @@
   font-family: 'Roboto', sans-serif;
   width: 100%;
 }
-nav{
+body{
+  background-color: #f5f8fa
+  }
+header{
+  background-color: #fff;
+  height: 65px;
+  border-bottom: 1px solid #e2e1d2;
   width: 100%;
-  padding: 25px 10px;
-}
+  padding: 10px 5px;
+  }
+.columna{
+  float: left;
+  width: 29%;
+  }
+.seg{
+  width: 42%;
+    }
+.tercera{
+  width: 29%;
+  padding: 0 10px;
+      }
 /*icon y texto*/
 .text{
   font-size: 14px;
@@ -16,35 +33,300 @@ nav{
 }
 .icon{
   display: inline-block;
+  text-align: center;
+  margin-top: 5px;
+  height: 42px;
 }
 .one{
   width: 80px;
-  margin-left: 5%;
+  margin-left: 7%;
 }
 .two{
   width: 130px;
 }
 .three{
-  width: 90px;
+  width: 100px;
 }
 .four{
-  margin-left: 12%;
+  margin-left: 15%;
   width: 50px
+}
+.one:hover,.two:hover,.three:hover{
+  cursor: pointer;
+  border-bottom: 4px solid #1da1f2;
+  color: #1da1f2;
 }
 /*buscador*/
 .five{
-  width: 200px;
+  width: 190px;
   display: inline-block;
-  padding: 7px;
-  border: 1px solid #77848d;
+  padding: 3px 7px;
+  border: 1px solid #e2e1d2;
   border-radius: 15px;
-  margin-left: 15%;
+  margin-left: 13%;
 }
 input,.five{
-  background-color: #f1f1f1;
+  background-color: #f5f8fa;
 }
 #search{
   outline: none;
   border: none;
-  width: 150px;
+  width: 120px;
 }
+.princ{
+  width: 40px;
+  height: 40px;
+  position:absolute;
+  border-radius:30px;
+  margin-left: 5px;
+}
+#twittear{
+  width: 110px;
+  height: 38px;
+  font-size: 15px;
+  border-radius: 5px;
+  border: 1px solid #1da1f2;
+  background-color: #1da1f2;
+  color: #fff;
+  margin-left: 60px;
+  outline: none;
+}
+/*primera columna-secion foto*/
+.container-perfil{
+  width: 320px;
+  height: 280px;
+  background-color: white;
+  margin-top: 15px;
+  float: left;
+  margin-left: 50px;
+  border-radius: 10px;
+  border: 1px solid #d8e2e9;
+}
+.container-perfil img{
+  height: 140px;
+  border-radius: 15px;
+}
+.perfil{
+  width: 120px;
+  height: 120px;
+  background-color: white;
+  position: relative;
+  margin-top: -40px;
+  padding: 10px;
+  margin-left: 20px;
+  border-radius: 15px;
+}
+.perfil img{
+  width: 100px;
+  height: 100px;
+  border-radius: 15px;
+}
+.datos-perfil{
+  margin-top:-40px;
+  margin-left: 45%;
+  width: 150px;
+
+}
+.datos-perfil h3{
+  font-weight: bold;
+  font-size: 20px;
+}
+.datos-perfil h4{
+  color: #66757f;
+  font-size: 15px;
+  font-weight: 300;
+}
+.datos{
+  float: left;
+  width: 20%;
+  margin-left: 10%;
+  margin-top: 0px;
+}
+.let{
+  font-size: 10px;
+  font-weight: 300;
+  color: #66757f
+}
+.num{
+  font-size: 20px;
+  font-weight: bold;
+  color: #1da1f2;
+}
+/*primera columna-parte baja*/
+.primer-abajo {
+  background-color: #fff;
+  margin-top: 80%;
+  margin-left: 12%;
+  border-radius: 10px;
+  width: 320px;
+  padding: 15px;
+  border: 1px solid #d8e2e9;
+}
+.primer-abajo div {
+  margin-top: 10px;
+}
+.primer-abajo span {
+  color:#1da1f2;
+  font-size: 15px;
+  font-weight: bold;
+}
+.primer-abajo p {
+  font-size: 13px;
+  color: #66757f;
+}
+.primer-abajo h3 {
+  color: #66757f;
+  font-weight: bold;
+}
+/*seg-columna*/
+.container-costado{
+  width: 100%;
+  background-color: #fff;
+  float: left;
+  margin-top: 20px;
+  border: 1px solid #d8e2e9;
+}
+.twii{
+  background-color: #e6ecf0;
+  width: 100%;
+  padding: 8px;
+  overflow: auto;
+}
+.twii img{
+  width: 50px;
+  height: 50px;
+  border-radius: 5px;
+  float: left;
+}
+.twii div{
+  float: left;
+ width: 370px;
+ background-color: #fff;
+ height: 38px;
+ margin: 10px 20px;
+}
+.twii input{
+ width: 330px;
+ background-color: #fff;
+ border: none;
+ outline: none;
+}
+*::-webkit-input-placeholder {
+    color: #1da1f2;
+}
+.primer{
+   border-bottom: 1px solid #e2e1d2;
+   height: 85px;
+}
+.primer img {
+  width: 50px;
+  border-radius: 5px;
+  margin: 10px;
+  float: left;
+}
+.e{
+    float: left;
+    width: 480px;
+    font-size: 15px;
+    font-weight: 300;
+}
+.e p{
+  width: 460px;
+}
+.plomo{
+  color: #66757f;
+}
+.azul{
+  color: #6898e2;
+  font-weight: 300;
+}
+.azul:hover{
+  cursor: pointer;
+}
+.re-twitt{
+  margin-left: 5%;
+  margin-top: 20px;
+}
+.re-twitt span{
+  margin-left: 10%;
+}
+/*parte tercera*/
+.right {
+  width: 80%;
+  background-color: #fff;
+  float: left;
+  margin-left: 1%;
+  margin-top: 20px;
+  padding: 5px;
+  border: 1px solid #d8e2e9;
+  border-radius: 5px;
+  }
+  .right h3{
+    color: #66757f;
+  }
+.add{
+  width: 100%;
+  margin-bottom: 10px;
+  margin-top: 5px;
+  }
+.add img{
+  width: 50px;
+  float: left;
+  margin-left: 10px;
+}
+.add p{
+  width: 18px;
+  font-weight: bold;
+  display: inline-block;
+}
+.add div span{
+  font-size: 14px;
+  font-weight: 300;
+}
+.otro{
+  font-size: 12px;
+}
+
+#close:hover, #close{
+  cursor: pointer;
+  color: #66757f;
+  margin-left: 160px;
+}
+
+.right button {
+  width: 85px;
+  height: 28px;
+  margin-top: 5px;
+  display: block;
+  font-weight: bold;
+  background-color: #e6ecf0;
+  border: 1px solid #e5e3d0;
+  border-radius: 10px;
+}
+.ultimo {
+  width: 80%;
+  background-color: #fff;
+  float: left;
+  margin-top: 10px;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #d8e2e9;
+  }
+  .ultimo div {
+    width: 80%;
+    margin: 2% 5%;
+    }
+  .ultimo div p {
+  color: #66757f;
+  text-align: justify;
+  font-size: 13px;
+  }
+  .publicar{
+   margin-top: 30%;
+   margin-left: 5px;
+   font-size: 13px;
+   width: 200px;
+  }
+.publicar:hover {
+  cursor: pointer;
+  }

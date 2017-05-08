@@ -27,15 +27,20 @@
 
 .icon-retweet:before {
   content: "\e903";
+  color:#66757f;
 }
 .icon-user-add:before {
   content: "\e904";
+  color:#1da1f2;
 }
 .icon-camera:before {
   content: "\e905";
+  color: #1da1f2;
+  font-size: 25px;
 }
 .icon-arrow-back-outline:before {
   content: "\e906";
+  color:#66757f;
 }
 .icon-edit:before {
   content: "\e908";
@@ -58,6 +63,8 @@
 }
 .icon-chevron-down:before {
   content: "\f0a3";
+  float: right;
+  color: #66757f;
 }
 .icon-home:before {
   content: "\f08d";
@@ -65,17 +72,21 @@
 }
 .icon-heart:before {
   content: "\e901";
+  color:#66757f;
+
 }
 .icon-home2:before {
   content: "\e902";
 }
 .icon-quill:before {
   content: "\e907";
+  color: #fff;
 }
 .icon-search:before {
   content: "\e986";
-  font-size: 15px;
+  font-size: 12px;
   color:#77848d;
+  margin-left: 17%;
 }
 .icon-reply:before {
   content: "\e909";
